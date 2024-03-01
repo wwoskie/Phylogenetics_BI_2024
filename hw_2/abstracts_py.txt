@@ -1,0 +1,138 @@
+1. Front Vet Sci. 2024 Jan 11;10:1334434. doi: 10.3389/fvets.2023.1334434. 
+eCollection 2023.
+
+Advancements in copy number variation screening in herbivorous livestock genomes 
+and their association with phenotypic traits.
+
+Liu X(1), Chen W(1), Huang B(1), Wang X(1), Peng Y(1), Zhang X(1), Chai W(1), 
+Khan MZ(1), Wang C(1).
+
+Author information:
+(1)Liaocheng Research Institute of Donkey High-Efficiency Breeding, Liaocheng 
+University, Liaocheng, China.
+
+Copy number variations (CNVs) have garnered increasing attention within the 
+realm of genetics due to their prevalence in human, animal, and plant genomes. 
+These structural genetic variations have demonstrated associations with a broad 
+spectrum of phenotypic diversity, economic traits, environmental adaptations, 
+epidemics, and other essential aspects of both plants and animals. Furthermore, 
+CNVs exhibit extensive sequence variability and encompass a wide array of 
+genomes. The advancement and maturity of microarray and sequencing technologies 
+have catalyzed a surge in research endeavors pertaining to CNVs. This is 
+particularly prominent in the context of livestock breeding, where molecular 
+markers have gained prominence as a valuable tool in comparison to traditional 
+breeding methods. In light of these developments, a contemporary and 
+comprehensive review of existing studies on CNVs becomes imperative. This review 
+serves the purpose of providing a brief elucidation of the fundamental concepts 
+underlying CNVs, their mutational mechanisms, and the diverse array of detection 
+methods employed to identify these structural variations within genomes. 
+Furthermore, it seeks to systematically analyze the recent advancements and 
+findings within the field of CNV research, specifically within the genomes of 
+herbivorous livestock species, including cattle, sheep, horses, and donkeys. The 
+review also highlighted the role of CNVs in shaping various phenotypic traits 
+including growth traits, reproductive traits, pigmentation and disease 
+resistance etc., in herbivorous livestock. The main goal of this review is to 
+furnish readers with an up-to-date compilation of knowledge regarding CNVs in 
+herbivorous livestock genomes. By integrating the latest research findings and 
+insights, it is anticipated that this review will not only offer pertinent 
+information but also stimulate future investigations into the realm of CNVs in 
+livestock. In doing so, it endeavors to contribute to the enhancement of 
+breeding strategies, genomic selection, and the overall improvement of 
+herbivorous livestock production and resistance to diseases.
+
+Copyright © 2024 Liu, Chen, Huang, Wang, Peng, Zhang, Chai, Khan and Wang.
+
+DOI: 10.3389/fvets.2023.1334434
+PMCID: PMC10808162
+PMID: 38274664
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+
+
+2. Front Genet. 2023 Dec 14;14:1277784. doi: 10.3389/fgene.2023.1277784. 
+eCollection 2023.
+
+Incorporating CNV analysis improves the yield of exome sequencing for rare 
+monogenic disorders-an important consideration for resource-constrained 
+settings.
+
+Louw N(1), Carstens N(1)(2), Lombard Z(1); for DDD-Africa as members of the 
+H3Africa Consortium.
+
+Author information:
+(1)Division of Human Genetics, National Health Laboratory Service and School of 
+Pathology, Faculty of Health Sciences, University of the Witwatersrand, 
+Johannesburg, South Africa.
+(2)Genomics Platform, South African Medical Research Council, Cape Town, South 
+Africa.
+
+Exome sequencing (ES) is a recommended first-tier diagnostic test for many rare 
+monogenic diseases. It allows for the detection of both single-nucleotide 
+variants (SNVs) and copy number variants (CNVs) in coding exonic regions of the 
+genome in a single test, and this dual analysis is a valuable approach, 
+especially in limited resource settings. Single-nucleotide variants are well 
+studied; however, the incorporation of copy number variant analysis tools into 
+variant calling pipelines has not been implemented yet as a routine diagnostic 
+test, and chromosomal microarray is still more widely used to detect copy number 
+variants. Research shows that combined single and copy number variant analysis 
+can lead to a diagnostic yield of up to 58%, increasing the yield with as much 
+as 18% from the single-nucleotide variant only pipeline. Importantly, this is 
+achieved with the consideration of computational costs only, without incurring 
+any additional sequencing costs. This mini review provides an overview of copy 
+number variant analysis from exome data and what the current recommendations are 
+for this type of analysis. We also present an overview on rare monogenic disease 
+research standard practices in resource-limited settings. We present evidence 
+that integrating copy number variant detection tools into a standard exome 
+sequencing analysis pipeline improves diagnostic yield and should be considered 
+a significantly beneficial addition, with relatively low-cost implications. 
+Routine implementation in underrepresented populations and limited resource 
+settings will promote generation and sharing of CNV datasets and provide 
+momentum to build core centers for this niche within genomic medicine.
+
+Copyright © 2023 Louw, Carstens, Lombard and for DDD-Africa as members of the 
+H3Africa Consortium.
+
+DOI: 10.3389/fgene.2023.1277784
+PMCID: PMC10753787
+PMID: 38155715
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+
+
+3. Curr Issues Mol Biol. 2023 Dec 4;45(12):9737-9752. doi: 10.3390/cimb45120608.
+
+A Bioinformatics Toolkit for Next-Generation Sequencing in Clinical Oncology.
+
+Cabello-Aguilar S(1)(2), Vendrell JA(2), Solassol J(2).
+
+Author information:
+(1)Montpellier BioInformatics for Clinical Diagnosis (MOBIDIC), Molecular 
+Medicine and Genomics Platform (PMMG), CHU Montpellier, 34295 Montpellier, 
+France.
+(2)Laboratoire de Biologie des Tumeurs Solides, Département de Pathologie et 
+Oncobiologie, CHU Montpellier, Université de Montpellier, 34295 Montpellier, 
+France.
+
+Next-generation sequencing (NGS) has taken on major importance in clinical 
+oncology practice. With the advent of targeted therapies capable of effectively 
+targeting specific genomic alterations in cancer patients, the development of 
+bioinformatics processes has become crucial. Thus, bioinformatics pipelines play 
+an essential role not only in the detection and in identification of molecular 
+alterations obtained from NGS data but also in the analysis and interpretation 
+of variants, making it possible to transform raw sequencing data into meaningful 
+and clinically useful information. In this review, we aim to examine the 
+multiple steps of a bioinformatics pipeline as used in current clinical 
+practice, and we also provide an updated list of the necessary bioinformatics 
+tools. This resource is intended to assist researchers and clinicians in their 
+genetic data analyses, improving the precision and efficiency of these processes 
+in clinical research and patient care.
+
+DOI: 10.3390/cimb45120608
+PMCID: PMC10741970
+PMID: 38132454
+
+Conflict of interest statement: The authors declare no conflicts of interest.

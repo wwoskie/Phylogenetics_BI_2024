@@ -1,0 +1,107 @@
+---
+title: "1_trees"
+author: "Aleksandr Voskoboinikov"
+date: "2024-02-09"
+output:
+  html_document:
+    df_print: paged
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+# HW_1
+
+```{r setup, message = FALSE}
+
+library(ape)
+library(ggtree)
+```
+
+1. Считаем из текста дерево `(((A,B),(C,D)),E);` в объект simpletree;
+
+```{r}
+simpletree <- read.tree(text = "(((A,B), (C,D)), E);")
+```
+
+2. Нарисуем simpletree с помощью стандартной функции из пакета `ape`;
+
+```{r}
+plot.phylo(simpletree)
+```
+
+3. Сохраним это дерево в растровый формат (png) и векторный (svg);
+
+```{r}
+png("simpletree.png")
+plot.phylo(simpletree)
+invisible(dev.off())
+svg("simpletree.svg", width = 4, height = 4)
+plot.phylo(simpletree)
+invisible(dev.off())
+```
+
+4. Считаем файл https://www.jasondavies.com/tree-of-life/life.txt в объект treeoflife
+
+```{r}
+treeoflife <- read.tree("https://www.jasondavies.com/tree-of-life/life.txt")
+```
+
+5. Нарисуем `treeoflife` с помощью стандартной функции из пакета `ape` и сохраним это дерево в png;
+
+```{r}
+
+plot.phylo(treeoflife, cex = 0.2)
+png(filename = "treeOfLife.png", width = 20, height = 20, units = "cm", res = 600)
+plot.phylo(treeoflife, cex = 0.2)
+invisible(dev.off())
+```
+
+6. Нарисуем treeoflife неукоренённым или круговым;
+
+```{r}
+
+plot.phylo(treeoflife, type = "unrooted", no.margin = T, cex = 0.2)
+plot.phylo(treeoflife, type = "radial", cex = 0.2)
+```
+
+7. Нарисуем treeoflife с помощью ggtree с минимальными настройками;
+
+```{r}
+ggtree(treeoflife)
+```
+
+8. Нарисуем treeoflife с помощью ggtree так, чтобы надписи читались;
+
+```{r}
+ggtree(treeoflife) + geom_tiplab(size = 0.5)
+
+png(filename = "treeOfLife_visible.png", width = 20, height = 20, units = "cm", res = 600)
+ggtree(treeoflife) + geom_tiplab(size = 0.5)
+invisible(dev.off())
+```
+9. Нарисуем treeoflife круговым с читаемыми надписями;
+
+```{r, message=FALSE}
+ggtree(treeoflife) + layout_circular() + geom_tiplab(size = 1) 
+
+png(filename = "treeOfLife_visible_circular.png", width = 20, height = 20, units = "cm", res = 600)
+ggtree(treeoflife) + layout_circular() + geom_tiplab(size = 1) 
+invisible(dev.off())
+```
+10. Нарисуем treeoflife с дополнительным выделением позвоночных.
+
+```{r, message=FALSE}
+ggtree(treeoflife) + layout_circular() + geom_tiplab2(size = 1) + 
+  geom_hilight(node = MRCA(treeoflife, "Homo_sapiens", "Danio_rerio"), fill = "navy")
+
+```
+
+
+
+
+
+
